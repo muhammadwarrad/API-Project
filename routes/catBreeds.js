@@ -3,7 +3,7 @@ import * as controllers from "../controllers/catBreeds.js";
 
 const router = Router();
 
-router.get("/", controllers.getcatBreed);
+router.get("/", controllers.getCatBreeds);
 router.get("/:id", controllers.getcatBreed);
 router.post("/", controllers.createcatBreed);
 router.put("/:id", controllers.updatecatBreed);
