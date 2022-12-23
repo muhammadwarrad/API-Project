@@ -5,7 +5,6 @@ mongoose.set("returnOriginal", false);
 const url = process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/example'
 
 mongoose.connect(url).catch((err) => {
-
   console.log(`Error connection to MongoDB: ${err.message}`);
 });
 
